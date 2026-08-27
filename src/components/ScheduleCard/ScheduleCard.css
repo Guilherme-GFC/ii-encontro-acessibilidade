@@ -1,0 +1,64 @@
+.schedule__cards {
+	display: flex;
+	gap: 24;
+}
+
+.schedule__card {
+	background-color: var(--bg-card);
+	padding: 32px;
+	border-radius: 28px;
+	flex: 1;
+}
+
+.card__header {
+	display: flex;
+	justify-content: space-between;
+}
+
+.card__title__date {
+	font-size: 1.625rem;
+	font-weight: 700;
+}
+
+.card__title__fulldate {
+	font-size: 0.875rem;
+	color: var(--text-dark-secondary);
+}
+
+.card__header__date {
+	font-size: 1rem;
+	font-weight: 900;
+	width: 42px;
+	height: 42px;
+	background-color: var(--secondary-color);
+	border-radius: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	align-self: center;
+}
+
+.activity {
+	display: flex;
+	gap: 20px;
+	padding: 20px 0;
+	border-bottom: 1px solid #d8ded8;
+}
+
+.activity__hour {
+	font-size: 1.125rem;
+	font-weight: 700;
+	color: var(--text-dark-quaternary);
+}
+
+.description__title {
+	font-size: 1rem;
+	font-weight: 700;
+	color: var(--text-dark-primary);
+}
+
+.description__info {
+	font-size: 0.813rem;
+	font-weight: 400;
+	color: var(--text-dark-secondary);
+}

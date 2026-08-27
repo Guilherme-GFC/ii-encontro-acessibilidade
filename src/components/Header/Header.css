@@ -1,0 +1,33 @@
+header {
+	display: flex;
+	justify-content: space-between;
+	color: var(--text-light-primary);
+}
+
+.logo_box {
+	display: flex;
+	align-items: center;
+	gap: 16px;
+	height: 90px;
+}
+
+.logo__title {
+	font-weight: bold;
+	font-size: 1rem;
+}
+
+.navigation {
+	display: flex;
+	align-items: center;
+	gap: 32px;
+	font-size: 0.875rem;
+	font-weight: 400;
+}
+
+.sign_link {
+	color: var(--text-dark-primary);
+	background-color: var(--secondary-color);
+	font-weight: bold;
+	padding: 10px 20px;
+	border-radius: 999px;
+}

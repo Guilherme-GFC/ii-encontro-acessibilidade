@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+/* Variáveis Globais de Estilo */
+:root {
+	/* Cores */
+	--primary-color: #0d2a22;
+	--secondary-color: #b9d36a;
+	--tertiary-color: #55745d;
+
+	/* Cores de Fundo */
+	--bg-1: #173e32;
+	--bg-2: #f5f2e9;
+	--bg-3: #e7ede7;
+	--bg-footer: #0d2a22;
+	--bg-card: #ffffff;
+
+	/* Cores de Texto */
+	--text-dark-primary: #18201d;
+	--text-dark-secondary: #65706a;
+	--text-dark-tertiary: #55745d;
+	--text-dark-quaternary: #173e32;
+	--text-light-primary: #ffffff;
+	--text-light-secondary: #e7ede7;
+
+	/* Cores de Destaque */
+	--accent-color: #f2b84b;
+
+	/* Estrutura */
+	--border-radius: 8px;
+	--box-shadow:
+		0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.05);
+}
+
+body {
+	font-family: "Inter", sans-serif;
+	line-height: 1.5;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
