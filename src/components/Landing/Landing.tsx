@@ -16,7 +16,7 @@ export default function Landing() {
 				</p>
 				<div className="helper_box">
 					<p>● Parque Nacional do Iguaçu</p>
-					<p>● 8h30 às 18h</p>
+					<p>● 08:00 às 18:00</p>
 					<p>● Evento acessível</p>
 				</div>
 			</div>

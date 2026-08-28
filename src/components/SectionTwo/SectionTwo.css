@@ -3,13 +3,6 @@
 	min-height: 900px;
 }
 
-.sectionContainer {
-	display: flex;
-	flex-direction: column;
-	gap: 40px;
-	padding: 96px 0px;
-}
-
 .schedule__header {
 	display: flex;
 	align-items: end;
@@ -31,4 +24,51 @@
 .schedule__cards {
 	display: flex;
 	gap: 24px;
+}
+
+.schedule__mobile-toggle {
+	display: none;
+}
+
+@media (max-width: 768px) {
+	.schedule__header {
+		flex-direction: column;
+	}
+
+	.schedule__title {
+		font-size: 2rem;
+	}
+
+	.schedule__header > span {
+		font-size: 0.813rem;
+	}
+
+	.schedule__mobile-toggle {
+		display: flex;
+		gap: 8px;
+		margin-bottom: 16px;
+	}
+
+	.schedule__toggle-btn {
+		flex: 1;
+		padding: 10px;
+		border: 1px solid var(--tertiary-color);
+		background: #fff;
+		border-radius: 8px;
+		color: var(--text-dark-quaternary);
+		font-weight: 700;
+	}
+
+	.schedule__toggle-btn.is-active {
+		background: var(--primary-color);
+		color: var(--text-light-primary);
+	}
+
+	.schedule__card-wrapper {
+		display: none;
+	}
+
+	.schedule__card-wrapper.is-active {
+		display: block;
+	}
 }

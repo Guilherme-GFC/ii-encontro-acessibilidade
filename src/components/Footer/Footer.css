@@ -45,3 +45,14 @@ footer {
 	justify-content: space-between;
 	padding-top: 28px;
 }
+
+@media (max-width: 768px) {
+	.footer__top {
+		flex-direction: column;
+		gap: 40px;
+	}
+
+	.footer__title {
+		font-size: 2rem;
+	}
+}

@@ -1,0 +1,35 @@
+.section_3 {
+	background-color: var(--bg-3);
+	min-height: 900px;
+}
+
+.indication__title {
+	margin-bottom: 2.5rem;
+}
+
+.indication__title_span {
+	font-size: 0.813rem;
+	font-weight: 900;
+	color: var(--text-dark-tertiary);
+}
+
+.indication__title_text {
+	font-size: 2.5rem;
+	font-weight: 700;
+	color: var(--text-dark-primary);
+}
+
+.indication__cards_box_holder {
+	display: flex;
+	gap: 32px;
+}
+
+@media (max-width: 768px) {
+	.indication__title_text {
+		font-size: 2rem;
+	}
+
+	.indication__cards_box_holder {
+		flex-direction: column;
+	}
+}

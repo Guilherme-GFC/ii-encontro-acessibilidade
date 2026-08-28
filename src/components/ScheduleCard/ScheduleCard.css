@@ -1,13 +1,9 @@
-.schedule__cards {
-	display: flex;
-	gap: 24;
-}
-
 .schedule__card {
 	background-color: var(--bg-card);
 	padding: 32px;
 	border-radius: 28px;
 	flex: 1;
+	box-shadow: var(--box-shadow);
 }
 
 .card__header {
@@ -61,4 +57,7 @@
 	font-size: 0.813rem;
 	font-weight: 400;
 	color: var(--text-dark-secondary);
+}
+
+@media (max-width: 768px) {
 }

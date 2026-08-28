@@ -1,4 +1,18 @@
 .container {
+	max-width: 1200px;
 	width: 90%;
 	margin: 0 auto;
+}
+
+.sectionContainer {
+	display: flex;
+	flex-direction: column;
+	gap: 40px;
+	padding: 96px 0px;
+}
+
+@media (max-width: 426px) {
+	.sectionContainer {
+		padding: 50px 0;
+	}
 }

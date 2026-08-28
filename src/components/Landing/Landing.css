@@ -10,6 +10,8 @@
 	display: flex;
 	flex-direction: column;
 	gap: 24px;
+
+	max-width: 100%;
 }
 
 .right_container {
@@ -45,4 +47,33 @@ h1 {
 	color: var(--text-light-primary);
 	gap: 24px;
 	font-weight: 600;
+	font-size: 0.875rem;
+}
+
+@media (max-width: 768px) {
+	.right_container {
+		display: none;
+	}
+
+	.landing {
+		align-items: flex-start;
+		min-height: auto;
+	}
+
+	.left_container {
+		align-items: flex-start;
+	}
+
+	.date {
+		text-align: center;
+		width: 100%;
+	}
+
+	h1 {
+		font-size: 2rem;
+	}
+
+	.description {
+		font-size: 1rem;
+	}
 }

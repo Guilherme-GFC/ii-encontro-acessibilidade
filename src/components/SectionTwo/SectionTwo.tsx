@@ -1,14 +1,17 @@
 import ScheduleCard from "../ScheduleCard";
 import "./SectionTwo.css";
 import schedule from "../../utils/schedule";
+import { useState } from "react";
 
 const data = schedule.days;
 
 export default function SectionTwo() {
+	const [activeDay, setActiveDay] = useState(0);
+
 	return (
-		<div className="section_2">
-			<div className="sectionContainer">
-				<div className="container schedule__header">
+		<div id="schedules" className="section_2">
+			<div className="sectionContainer container">
+				<div className=" schedule__header">
 					<div>
 						<p className="schedule__tag">Cronograma completo</p>
 						<p className="schedule__title">
@@ -20,14 +23,30 @@ export default function SectionTwo() {
 						pequenos ajustes.
 					</span>
 				</div>
-				<div className="schedule__cards container">
+				<div className="schedule__mobile-toggle">
 					{data.map((day, index) => (
-						<ScheduleCard
-							activities={day.activities}
-							date={day.date.split("/")[0]}
-							day={`${index + 1}`}
-							full_date={day.full_date}
-						/>
+						<button
+							key={index}
+							className={`schedule__toggle-btn ${activeDay === index ? "is-active" : ""}`}
+							onClick={() => setActiveDay(index)}
+						>
+							Dia {index + 1}
+						</button>
+					))}
+				</div>
+				<div className="schedule__cards">
+					{data.map((day, index) => (
+						<div
+							key={index}
+							className={`schedule__card-wrapper ${activeDay === index ? "is-active" : ""}`}
+						>
+							<ScheduleCard
+								activities={day.activities}
+								date={day.date.split("/")[0]}
+								day={`${index + 1}`}
+								full_date={day.full_date}
+							/>
+						</div>
 					))}
 				</div>
 			</div>

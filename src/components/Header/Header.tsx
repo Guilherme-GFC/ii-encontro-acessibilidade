@@ -10,9 +10,9 @@ export default function Header() {
 					<p className="logo__title">ICMBIO • Encontro Nacional</p>
 				</div>
 				<nav className="navigation">
-					<a href="">Programação</a>
-					<a href="">Como Chegar</a>
-					<a href="">Hospedagem</a>
+					<a href="#schedules">Programação</a>
+					<a href="https://maps.app.goo.gl/XMJ99J2fYUEfXk3T9">Como Chegar</a>
+					<a href="#hosting">Hospedagem</a>
 					<a href="" className="sign_link">
 						Fazer Inscrição
 					</a>
