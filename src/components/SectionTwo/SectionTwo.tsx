@@ -24,7 +24,7 @@ export default function SectionTwo() {
 					</span>
 				</div>
 				<div className="schedule__mobile-toggle">
-					{data.map((day, index) => (
+					{data.map((_, index) => (
 						<button
 							key={index}
 							className={`schedule__toggle-btn ${activeDay === index ? "is-active" : ""}`}
