@@ -8,6 +8,22 @@
 	margin-bottom: 40px;
 }
 
+.cards__icon {
+	background-color: var(--secondary-color);
+	border-radius: 999px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-width: 50px;
+	min-height: 50px;
+	align-self: center;
+
+	> svg {
+		color: var(--text-dark-primary);
+		font-size: 30px;
+	}
+}
+
 .cards__title {
 	font-size: 1.625rem;
 	font-weight: 700;

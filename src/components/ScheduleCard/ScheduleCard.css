@@ -2,7 +2,7 @@
 	background-color: var(--bg-card);
 	padding: 32px;
 	border-radius: 28px;
-	flex: 1;
+	min-height: -webkit-fill-available;
 	box-shadow: var(--box-shadow);
 }
 

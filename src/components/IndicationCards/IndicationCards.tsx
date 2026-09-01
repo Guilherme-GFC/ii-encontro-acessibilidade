@@ -1,7 +1,7 @@
 import "./IndicationCards.css";
-import hostingIcon from "../../assets/hosting.svg";
-import restaurantIcon from "../../assets/restaurant.svg";
 import indication from "../../utils/indication";
+import { IoRestaurant } from "react-icons/io5";
+import { FaHotel } from "react-icons/fa6";
 
 interface Props {
 	type: "Hosting" | "Restaurant";
@@ -14,11 +14,10 @@ export default function IndicationCards({ type }: Props) {
 	return (
 		<div className="indication__cards_holder">
 			<div className="indication__cards_header">
-				<img
-					className="cards__icon"
-					src={type === "Hosting" ? hostingIcon : restaurantIcon}
-					alt="icone de hoteis"
-				/>
+				<div className="cards__icon">
+					{type === "Hosting" ? <FaHotel /> : <IoRestaurant />}
+				</div>
+
 				<div className="cards__title_holder">
 					<h2 className="cards__title">
 						{type === "Hosting" ? "Hospedagem" : "Restaurante"}
