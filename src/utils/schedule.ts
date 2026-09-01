@@ -3,18 +3,18 @@ export default {
 	days: [
 		{
 			date: "15/09/26",
-			full_date: "Segunda-feira, 15 de setembro",
+			full_date: "Terça-feira, 15 de Setembro",
 			activities: [
 				{
-					time: "08:00",
+					time: "08:30",
 					title: "Credenciamento",
-					details: "Identificação e preparação de crachás",
+					details: "",
 				},
 				{
-					time: "09:00",
+					time: "09:15",
 					title: "Abertura institucional",
 					details:
-						"Presidência ICMBio, Diretores presentes, Coord gerais presentes, Chefe PN Iguaçu",
+						"Presidência ICMBio, Diretores presentes, Coord. gerais presentes, Chefe PN Iguaçu",
 				},
 				{
 					time: "10:30",
@@ -26,8 +26,8 @@ export default {
 				{
 					time: "11:30",
 					title:
-						"Palestra técnica: Capacitismo em áreas naturais - rompendo a barreira da invisibilidade",
-					details: "Elisabete Hulgado (PN do Itatiaia) - Confirmado",
+						'Palestra técnica: "Capacitismo em áreas naturais: Rompendo a barreira da invisibilidade"',
+					details: "Elisabete Hulgado - PN do Itatiaia",
 				},
 				{
 					time: "12:30",
@@ -36,9 +36,9 @@ export default {
 				},
 				{
 					time: "14:00",
-					title: "Roda de conversa: engenharia e arquitetura inclusivas",
+					title: "Roda de conversa: Engenharia e arquitetura inclusivas",
 					details:
-						"Discussão sobre aspectos de infraestrutura (engenharia e arquitetura) para diferentes graus de intervenção para promoção da acessibilidade. Representante Concessionária do PN do Iguaçu (Baroni, André Franzini ou Ricardo) - Confirmado; Representante COPEA/ICMBio - Bartyra ou Roberta (ok)",
+						"Discussão sobre aspectos de infraestrutura (engenharia e arquitetura) para diferentes graus de intervenção para promoção da acessibilidade. Representante Concessionária do PN do Iguaçu; Representante COPEA/ICMBio",
 				},
 				{
 					time: "16:00",
@@ -50,22 +50,17 @@ export default {
 					title: "Visita guiada nas Cataratas",
 					details: "",
 				},
-				{
-					time: "18:00",
-					title: "Recepção no Café São João",
-					details: "",
-				},
 			],
 		},
 		{
 			date: "16/09/26",
-			full_date: "Terça-feira, 16 de setembro",
+			full_date: "Quarta-feira, 16 de Setembro",
 			activities: [
 				{
 					time: "09:00",
 					title: "Painel técnico: Manejo de trilhas e acessibilidade",
 					details:
-						"Facilitação: Geraldo (PN do Iguaçu) - ok; Gustavo e Peterson (PN do Itatiaia) - OFÍCIO 338 (024000574). Discussão: Técnicas de manejo de solo, drenagem, inclinação e uso de materiais locais (madeira, solo estabilizado) para tornar trilhas convencionais acessíveis sem grandes obras.",
+						"Facilitação: Geraldo e Apolônio (PN do Iguaçu), Gustavo e Peterson (PN do Itatiaia). Discussão: Técnicas de manejo de solo, drenagem, inclinação e uso de materiais locais (madeira, solo estabilizado) para tornar trilhas convencionais acessíveis sem grandes obras.",
 				},
 				{
 					time: "10:45",
@@ -76,7 +71,7 @@ export default {
 					time: "11:00",
 					title: "Tecnologia assistiva e inovação digital",
 					details:
-						"Nágila Campos - Experiência FN Araripe Apodi: aplicativo e sinalização acessível em trilha (exposição + perguntas) - OFÍCIO 336 (024000409); Prof. Claudio e Ivan (UNIOESTE) - NarraAI: Inteligência Artificial para uma Experiência do Visitante Mais Acessível - OFÍCIO 335 (024000282)",
+						"Nágila Campos - Experiência FN Araripe Apodi: Aplicativo e sinalização acessível em trilha (exposição + perguntas); Prof. Claudio e Ivan (UNIOESTE) - NarraAI: Inteligência Artificial para uma Experiência do Visitante Mais Acessível - OFÍCIO 335 (024000282)",
 				},
 				{
 					time: "12:30",
@@ -87,7 +82,7 @@ export default {
 					time: "14:00",
 					title: "Tecnologia assistiva e inovação digital",
 					details:
-						"Bell Machado - consultora (30 min + 15 min perguntas) - OFÍCIO 284 (023878311); Representante Instituto Benjamin Constant, orientação em mobilidade: Regina (30 min + 15 min perguntas) - ofício; Facilitação: Apolônio e Tom; Obs: Carlos enviar os dois ofícios",
+						"Facilitação: Everson Faleia (Tom), com participação de Bell Machado e Juarez Michelotti (SESC Bertioga)",
 				},
 				{
 					time: "15:30",
@@ -97,8 +92,7 @@ export default {
 				{
 					time: "15:45",
 					title: "A experiência do visitante com deficiência",
-					details:
-						"Fernanda Boaventura (ENAP) - ok - OFÍCIO 284 (023878311) - Confirmado",
+					details: "Fernanda Boaventura (ENAP)",
 				},
 				{
 					time: "17:00",

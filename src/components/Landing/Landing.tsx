@@ -5,10 +5,11 @@ export default function Landing() {
 	return (
 		<div className="container landing">
 			<div className="left_container">
-				<p className="date">15 e 16 de setembro • FOZ DO IGUAÇU</p>
+				<p className="date">
+					15 e 16 de Setembro • Centro de Visitantes • Parque Nacional do Iguaçu
+				</p>
 				<h1>
-					Segundo Encontro sobre Acessibilidade em Unidades de Conservação
-					Federais
+					II Encontro sobre Acessibilidade em Unidades de Conservação Federais
 				</h1>
 				<p className="description">
 					Dois dias para compartilhar práticas, construir redes e ampliar o

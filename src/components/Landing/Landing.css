@@ -25,14 +25,15 @@
 	background-color: var(--accent-color);
 	padding: 8px 14px;
 	border-radius: 999px;
-	font-size: 0.813rem;
+	font-size: 0.9rem;
 	font-weight: 900;
 	width: fit-content;
+	margin-top: 20px;
 }
 
 h1 {
 	color: var(--text-light-primary);
-	font-size: 4rem;
+	font-size: 3.5rem;
 	font-weight: bold;
 }
 

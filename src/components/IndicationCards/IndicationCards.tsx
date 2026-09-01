@@ -1,12 +1,16 @@
 import "./IndicationCards.css";
 import hostingIcon from "../../assets/hosting.svg";
 import restaurantIcon from "../../assets/restaurant.svg";
+import indication from "../../utils/indication";
 
 interface Props {
 	type: "Hosting" | "Restaurant";
 }
 
 export default function IndicationCards({ type }: Props) {
+	const indicationList =
+		type === "Hosting" ? indication.hosting : indication.restaurant;
+
 	return (
 		<div className="indication__cards_holder">
 			<div className="indication__cards_header">
@@ -27,16 +31,11 @@ export default function IndicationCards({ type }: Props) {
 				</div>
 			</div>
 			<div className="indication__cards">
-				{[1, 2, 3].map(() => (
+				{indicationList.map((item) => (
 					<div className="indication__card">
-						<h3 className="card__title">Hotel Brasília Central</h3>
-						<p className="card__description">
-							Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita
-							quisquam ex modi quasi aperiam quod, recusandae itaque provident!
-							Reiciendis rerum architecto quasi obcaecati vero nobis
-							consequuntur? Inventore eum atque tempore.
-						</p>
-						<a href="" className="card__link">
+						<h3 className="card__title">{item.title}</h3>
+						<p className="card__description">{item.description}</p>
+						<a href={item.link} className="card__link" target="_blank">
 							Ver no mapa →
 						</a>
 					</div>

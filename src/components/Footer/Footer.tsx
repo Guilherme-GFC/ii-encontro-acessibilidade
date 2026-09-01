@@ -13,7 +13,9 @@ export default function Footer() {
 							Em caso de necessidade específica, fale com a organização.
 						</span>
 					</div>
-					<a href="">Garantir minha vaga</a>
+					<a href="https://forms.gle/dc1CDg28f4oEKjHZA" target="_blank">
+						Garantir minha vaga
+					</a>
 				</div>
 
 				<div className="footer__bottom">

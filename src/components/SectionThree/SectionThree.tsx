@@ -16,6 +16,12 @@ export default function SectionThree() {
 						<IndicationCards type="Hosting" />
 						<IndicationCards type="Restaurant" />
 					</div>
+					<p className="indication__disclaimer">
+						* As indicações de hotéis e restaurantes são meramente informativas,
+						sem vínculo ou parceria com a organização do evento. Consulte
+						diretamente os estabelecimentos para confirmar preços e
+						disponibilidade.
+					</p>
 				</div>
 			</div>
 		</div>

@@ -2,13 +2,17 @@ header {
 	display: flex;
 	justify-content: space-between;
 	color: var(--text-light-primary);
+	height: 90px;
 }
 
 .logo_box {
 	display: flex;
 	align-items: center;
 	gap: 16px;
-	height: 90px;
+
+	> img {
+		max-height: 70px;
+	}
 }
 
 .logo__title {
