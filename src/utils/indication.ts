@@ -1,10 +1,10 @@
 export default {
 	hosting: [
 		{
-			title: "Sanma Hotel",
+			title: "Hotel Colonial Iguaçu",
 			description:
-				"Este resort refinado fica no Parque Nacional do Iguaçu, a 7 minutos a pé do Thermas Parque Aquático Cataratas e a 3 km do Aeroporto Internacional de Foz do Iguaçu/Cataratas.",
-			link: "https://maps.app.goo.gl/m8t6YbdfuamUy1pdA",
+				"Este hotel descontraído está localizado a 1 km do Parque Nacional do Iguaçu, a menos de 1 km do Parque das Aves e a 1 km do Aeroporto Internacional de Foz do Iguaçu.",
+			link: "https://maps.app.goo.gl/iPeP1VM3BgJiTjUY7",
 		},
 		{
 			title: "Canzi Cataratas Hotel",
