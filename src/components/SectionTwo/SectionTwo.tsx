@@ -18,10 +18,6 @@ export default function SectionTwo() {
 							Do encontro à ação, em dois dias de trocas.
 						</p>
 					</div>
-					<span>
-						Intervalo para almoço das 12h30 às 14h. A programação pode receber
-						pequenos ajustes.
-					</span>
 				</div>
 				<div className="schedule__mobile-toggle">
 					{data.map((_, index) => (

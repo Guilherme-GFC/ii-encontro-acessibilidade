@@ -11,7 +11,7 @@ export default function Header() {
 		}
 	}
 	return (
-		<div className="container section_1">
+		<div className="container">
 			<header>
 				<div className="logo_box">
 					<img src={logo} alt="logo" />

@@ -40,7 +40,7 @@ h1 {
 .description {
 	color: var(--text-light-secondary);
 	font-size: 1.125rem;
-	font-weight: 300;
+	font-weight: 400;
 }
 
 .helper_box {

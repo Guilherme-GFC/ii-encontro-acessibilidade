@@ -1,3 +1,17 @@
 .section_1 {
-	background-color: var(--bg-1);
+	/* background-color: var(--bg-1); */
+	position: relative;
+	overflow: hidden;
+}
+
+.section_1::before {
+	content: "";
+	position: absolute;
+	inset: 0;
+	background-image: url("../../assets/imgs/forest-02.jpeg");
+	background-size: cover;
+	background-position: center;
+	filter: blur(8px) brightness(0.5);
+	transform: scale(1.1); /* evita bordas transparentes do blur */
+	z-index: -1;
 }
