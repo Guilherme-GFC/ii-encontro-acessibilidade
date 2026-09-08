@@ -71,7 +71,7 @@ export default {
 					time: "11:00",
 					title: "Tecnologia assistiva e inovação digital",
 					details:
-						"Nágila Campos - Experiência FN Araripe Apodi: Aplicativo e sinalização acessível em trilha (exposição + perguntas); Prof. Claudio e Ivan (UNIOESTE) - NarraAI: Inteligência Artificial para uma Experiência do Visitante Mais Acessível - OFÍCIO 335 (024000282)",
+						"Nágila Campos - Experiência FN Araripe Apodi: Aplicativo e sinalização acessível em trilha (exposição + perguntas); Prof. Claudio e Ivan (UNIOESTE) - NarraAI: Inteligência Artificial para uma Experiência do Visitante Mais Acessível",
 				},
 				{
 					time: "12:30",
